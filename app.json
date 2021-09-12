@@ -1,0 +1,25 @@
+{
+	"expo": {
+		"name": "daily-horoscope",
+		"slug": "daily-horoscope",
+		"android": {
+			"package": "com.iridiumlab.dailyhoroscope",
+			"enableDangerousExperimentalLeanBuilds": true,
+			"versionCode": 1,
+			"permissions": []
+		},
+		"platforms": ["android"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"splash": {
+			"image": "./assets/images/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"]
+	}
+}
